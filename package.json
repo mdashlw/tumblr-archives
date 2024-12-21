@@ -11,12 +11,15 @@
     "bluebird": "^3.7.2",
     "dotenv": "^16.4.7",
     "exit-hook": "^4.0.0",
+    "fastify": "^5.2.0",
     "lodash": "^4.17.21",
     "pg": "^8.13.1",
+    "pino-pretty": "^13.0.0",
     "undici": "6.19.8",
     "zod": "^3.24.1"
   },
   "scripts": {
-    "cli": "node --experimental-strip-types -r dotenv/config src/cli.ts"
+    "cli": "node --experimental-strip-types -r dotenv/config src/cli.ts",
+    "web": "node --experimental-strip-types -r dotenv/config src/web.ts"
   }
 }
