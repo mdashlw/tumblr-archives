@@ -1,6 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
+    "@types/bluebird": "^3.5.42",
     "@types/node": "^22.10.2",
     "@types/pg": "^8.11.10",
     "prettier": "^3.4.2",
